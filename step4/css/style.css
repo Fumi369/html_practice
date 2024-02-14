@@ -1,0 +1,120 @@
+body {
+  width: 900px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.gnav {
+  display: flex;
+}
+
+.nav-item {
+  display: block;
+  margin-right: 20px;
+}
+
+.section {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.section .title {
+  font-weight: normal;
+  text-align: center;
+}
+
+.profile-box {
+  display: flex;
+  border: solid 1px #000;
+  padding: 15px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.profile-img {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile-sns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.sns {
+  display: inline-block;
+  width: 70px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  margin-right: 15px;
+}
+
+.facebook {
+  background-color: #4267b2;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work {
+  width: 270px;
+  height: 200px;
+  color: white;
+  margin: 0 0 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work:last-child {
+  margin-right: 0;
+}
+
+.work-text {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  width: 160px;
+  background-color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.work-title {
+  font-size: 12px;
+  padding: 0 5px 5px 5px;
+  border-bottom: solid 1px #fff;
+}
+
+.design-work {
+  background-color: lightgreen;
+}
+
+.coding-work {
+  background-color: purple;
+}

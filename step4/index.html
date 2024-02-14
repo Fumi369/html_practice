@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>WEB開発実践コース2</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-</body>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <img src="./img/logo.png" alt="ロゴ" />
+      </h1>
+      <nav class="gnav">
+        <a class="nav-item" href="#profile">Profile</a>
+        <a class="nav-item" href="#works">Works</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section id="profile" class="section">
+        <div class="wrapper">
+          <h2 class="title">Profile</h2>
+          <div class="profile-box">
+            <div class="left-section">
+              <div class="profile-img">
+                <img src="./img/thambnail.png" alt="" />
+              </div>
+              <div class="profile-sns">
+                <a class="sns twitter" href="#">Twitter</a>
+                <a class="sns facebook" href="#">Facebook</a>
+              </div>
+            </div>
+            <div class="profile-description">
+              <p>WEBのお仕事承ります。</p>
+              <p>
+                デザイン/コーディング/WordPress等、WEBサイト作成に関するご要望には可能な限りお応えいたします。
+              </p>
+              <p>SEOを考慮したコーディングに自信があります。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="section">
+        <h2 class="title">Works</h2>
+        <div class="work-list">
+          <div class="work design-work">
+            <div class="work-text">
+              <p class="work-title">XX社様コーポレートサイト</p>
+              <p class="work-description">デザイン作成</p>
+            </div>
+          </div>
+          <div class="work design-work">
+            <div class="work-text">
+              <p class="work-title">XX社様キャンペーンサイト</p>
+              <p class="work-description">デザイン作成</p>
+            </div>
+          </div>
+          <div class="work coding-work">
+            <div class="work-text">
+              <p class="work-title">XX社様サービスサイト</p>
+              <p class="work-description">マークアップ</p>
+            </div>
+          </div>
+          <div class="work design-work">
+            <div class="work-text">
+              <p class="work-title">XX社様コーポレートサイト</p>
+              <p class="work-description">デザイン作成</p>
+            </div>
+          </div>
+          <div class="work coding-work">
+            <div class="work-text">
+              <p class="work-title">XX社様キャンペーンサイト</p>
+              <p class="work-description">マークアップ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
